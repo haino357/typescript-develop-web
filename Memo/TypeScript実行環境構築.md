@@ -21,3 +21,16 @@ Version 5.5.4
 // 2024/08/07時点のバージョン
 ```
 
+## TypeScriptの設定ファイルの作成
+### package.jsonの作成
+```
+npm init -y
+```
+`-y`オプションをつけると、デフォルトの設定で`package.json`が作成される。
+
+### tsconfig.jsonの作成
+TypeScriptの設定ファイルは`tsconfig.json`という名前で作成する。
+```
+tsc --init
+```
+`--init`オプションをつけると、`tsconfig.json`が作成される。
