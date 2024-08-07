@@ -28,6 +28,12 @@ npm init -y
 ```
 `-y`オプションをつけると、デフォルトの設定で`package.json`が作成される。
 
+## node_modulesの作成
+```
+npm install typescript
+```
+`npm install`コマンドを実行すると、`node_modules`ディレクトリが作成される。
+
 ### tsconfig.jsonの作成
 TypeScriptの設定ファイルは`tsconfig.json`という名前で作成する。
 ```
